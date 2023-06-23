@@ -1,0 +1,23 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <remove-node path="/api/package[@name='androidx.databinding.adapters']/class[@name='AbsSpinnerBindingAdapter']/method[@name='setEntries' and count(parameter)=2 and parameter[1][@type='android.widget.AbsSpinner'] and parameter[2][@type='T[]']]" />
+
+  <remove-node path="/api/package[@name='com.ekoapp.ekosdk']/class[@name='EkoCategoryIds']/method[@name='size' and count(parameter)=0]" />
+  <remove-node path="/api/package[@name='com.ekoapp.ekosdk']/class[@name='EkoCategoryIds.Creator']" />
+  <remode-node path="/api/package[@name='com.ekoapp.ekosdk.internal']/class[@name='EkoChannelEntity']" />
+  <remove-node path="/api/package[@name='com.zhihu.matisse.internal.model']/class[@name='AlbumCollection']" />
+  <remove-node path="/api/package[@name='com.ekoapp.ekosdk.internal']/class[@name='EkoMessageEntity']" />
+  <remove-npde path="/api/package[@name='com.ekoapp.ekosdk.internal.data.dao']/class[@name='ChatSettingsDao']" />
+
+  <remove-node path="/api/package[starts-with(@name,'com.ekoapp')]" />
+  <remove-node path="/api/package[starts-with(@name,'com.zhihu.matisse')]" />
+  <remove-node path="/api/package[@name='org.amity.types']/class[@name='ObjectId']" />
+  <!--<remove-node path="/api/package[starts-with(@name,'com.amity.socialcloud.sdk')]" />-->
+</metadata>
