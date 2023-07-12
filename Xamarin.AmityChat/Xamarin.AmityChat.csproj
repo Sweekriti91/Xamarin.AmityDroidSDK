@@ -58,8 +58,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.8.22</Version>
+      <Version>1.9.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj">
+      <Project>{4EB0CF7A-2F22-4337-9112-58F49C0E616A}</Project>
+      <Name>Xamarin.AmityCommon</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

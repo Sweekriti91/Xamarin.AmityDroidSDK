@@ -58,8 +58,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.8.22</Version>
+      <Version>1.9.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedReferenceJar Include="Jars\commons-io-2.6.jar" />
+    <EmbeddedReferenceJar Include="Jars\timber-4.7.1.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
