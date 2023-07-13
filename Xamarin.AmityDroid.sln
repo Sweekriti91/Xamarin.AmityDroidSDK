@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.810.25
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityDroid", "Xamarin.AmityDroid\Xamarin.AmityDroid.csproj", "{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmityDroidXamSample", "AmityDroidXamSample\AmityDroidXamSample.csproj", "{846DFC19-D74E-460B-ADB1-BADCA06BA090}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityChat", "Xamarin.AmityChat\Xamarin.AmityChat.csproj", "{57721D23-09DD-4395-AD13-C9C32190011E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmitySocial", "Xamarin.AmitySocial\Xamarin.AmitySocial.csproj", "{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityCommon", "Xamarin.AmityCommon\Xamarin.AmityCommon.csproj", "{4EB0CF7A-2F22-4337-9112-58F49C0E616A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmityDroidSampleXam", "AmityDroidSampleXam\AmityDroidSampleXam.csproj", "{235AAE65-8DD4-4F79-B1C6-287B97A8F635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{846DFC19-D74E-460B-ADB1-BADCA06BA090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{846DFC19-D74E-460B-ADB1-BADCA06BA090}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{846DFC19-D74E-460B-ADB1-BADCA06BA090}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{846DFC19-D74E-460B-ADB1-BADCA06BA090}.Release|Any CPU.Build.0 = Release|Any CPU
 		{57721D23-09DD-4395-AD13-C9C32190011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57721D23-09DD-4395-AD13-C9C32190011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57721D23-09DD-4395-AD13-C9C32190011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

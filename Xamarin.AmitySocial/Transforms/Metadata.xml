@@ -6,5 +6,18 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostContentAdapter']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostDummyAdapter']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostFooterAdapter']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostHeaderAdapter']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.data']/class[@name='AmitySelectCategoryItem']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.data']/class[@name='AmitySelectMemberItem']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='PostMedia']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.domain.model']/class[@name='AmityFileAttachment']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.FILE.Creator']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.PHOTO.Creator']" />
+  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.VIDEO.Creator']" />
+
 </metadata>
 
