@@ -96,9 +96,9 @@
     <EmbeddedReferenceJar Include="Jars\databinding-common-7.3.1.jar" />
     <EmbeddedReferenceJar Include="Jars\databinding-ktx-7.3.1.jar" />
     <EmbeddedReferenceJar Include="Jars\databinding-runtime-7.3.1.jar" />
-    <EmbeddedReferenceJar Include="Jars\Matisse-0.5.3-5.jar" />
     <EmbeddedReferenceJar Include="Jars\rxbridge-1.0.1-beta05.jar" />
     <EmbeddedReferenceJar Include="Jars\viewbinding-7.3.1.jar" />
+    <EmbeddedReferenceJar Include="Jars\zhihu_matisse.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

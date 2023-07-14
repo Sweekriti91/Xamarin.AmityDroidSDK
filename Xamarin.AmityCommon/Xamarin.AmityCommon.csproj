@@ -64,6 +64,7 @@
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\commons-io-2.6.jar" />
     <EmbeddedReferenceJar Include="Jars\timber-4.7.1.jar" />
+    <EmbeddedReferenceJar Include="Jars\zhihu_matisse.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
