@@ -93,10 +93,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
-    <AndroidResource Include="Resources\values\theme.xml">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
@@ -111,13 +107,13 @@
       <Project>{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}</Project>
       <Name>Xamarin.AmityDroid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj">
-      <Project>{4EB0CF7A-2F22-4337-9112-58F49C0E616A}</Project>
-      <Name>Xamarin.AmityCommon</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xamarin.AmityChat\Xamarin.AmityChat.csproj">
       <Project>{57721D23-09DD-4395-AD13-C9C32190011E}</Project>
       <Name>Xamarin.AmityChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj">
+      <Project>{4EB0CF7A-2F22-4337-9112-58F49C0E616A}</Project>
+      <Name>Xamarin.AmityCommon</Name>
     </ProjectReference>
     <ProjectReference Include="..\Xamarin.AmitySocial\Xamarin.AmitySocial.csproj">
       <Project>{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}</Project>
