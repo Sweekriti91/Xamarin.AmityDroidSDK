@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.7.20</Version>
+      <Version>1.9.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

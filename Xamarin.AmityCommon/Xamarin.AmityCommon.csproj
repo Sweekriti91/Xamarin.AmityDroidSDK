@@ -57,24 +57,24 @@
     <LibraryProjectZip Include="Jars\common-release.aar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\commons-io-2.6.jar" />
-    <EmbeddedReferenceJar Include="Jars\timber-4.7.1.jar" />
-    <EmbeddedReferenceJar Include="Jars\amity-sdk-6.9.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\jetified-Matisse-0.5.3-5.jar" />
-    <EmbeddedReferenceJar Include="Jars\jetified-rxbridge-1.0.1-beta05.jar" />
-    <EmbeddedReferenceJar Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.7.20</Version>
+      <Version>1.9.0.1</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ReferenceJar Include="Jars\amity-sdk-6.9.0.jar" />
+    <ReferenceJar Include="Jars\commons-io-2.6.jar" />
+    <ReferenceJar Include="Jars\timber-4.7.1.jar" />
+    <ReferenceJar Include="Jars\jetified-Matisse-0.5.3-5.jar" />
+    <ReferenceJar Include="Jars\jetified-rxbridge-1.0.1-beta05.jar" />
+    <ReferenceJar Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
+<!--   To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.-->
   <Target Name="BeforeBuild">
   </Target>
   <Target Name="AfterBuild">
   </Target>
-  -->
+  
 </Project>
