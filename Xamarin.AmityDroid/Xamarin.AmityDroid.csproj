@@ -1,61 +1,42 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}</ProjectGuid>
-    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <TemplateGuid>{77efb91c-a7e9-4b0e-a7c5-31eeec3c6d46}</TemplateGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xamarin.AmityDroid</RootNamespace>
-    <AssemblyName>Xamarin.AmityDroid</AssemblyName>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>True</Deterministic>
-    <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
-    <AndroidClassParser>class-parse</AndroidClassParser>
-    <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
-    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <TargetFrameworks>monoandroid12.0;net7.0-android</TargetFrameworks>
+    <IsBindingProject>true</IsBindingProject>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!--Workaround for APT2260 build errors-->
+    <AndroidUseDesignerAssembly>False</AndroidUseDesignerAssembly>
+    <AndroidUseIntermediateDesignerFile>False</AndroidUseIntermediateDesignerFile>
+
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>portable</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>portable</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="Mono.Android" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
+    <AndroidLibrary Include="Jars\amity-uikit-release.aar" />
+    <AndroidLibrary Include="Jars\amity-sdk-6.9.0.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" Bind="false" />
+    <AndroidLibrary Update="Jars\jetified-Matisse-0.5.3-5.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\databinding-adapters-7.3.1.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\databinding-common-7.3.1.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\databinding-ktx-7.3.1.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\databinding-runtime-7.3.1.jar" Bind="false"/>
+    <AndroidLibrary Include="Jars\rxbridge-1.0.1-beta05.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\viewbinding-7.3.1.jar" Bind="false"/>
+
+    <!-- Workaround issue copying .aar file to output directory -->
+    <None Include="Jars\amity-sdk-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Jars\jetified-Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" />
+    <None Include="Jars\databinding-adapters-7.3.1.jar" CopyToOutputDirectory="Always"  />
+    <None Include="Jars\databinding-common-7.3.1.jar" CopyToOutputDirectory="Always"  />
+    <None Include="Jars\databinding-ktx-7.3.1.jar" CopyToOutputDirectory="Always"  />
+    <None Include="Jars\databinding-runtime-7.3.1.jar" CopyToOutputDirectory="Always" />
+    <None Include="Jars\rxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always"  />
+    <None Include="Jars\viewbinding-7.3.1.jar" CopyToOutputDirectory="Always" />
+
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Jars\AboutJars.txt" />
-    <None Include="Additions\AboutAdditions.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <TransformFile Include="Transforms\Metadata.xml" />
-    <TransformFile Include="Transforms\EnumFields.xml" />
-    <TransformFile Include="Transforms\EnumMethods.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <LibraryProjectZip Include="Jars\amity-uikit-release.aar" />
-  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Xamarin.Kotlin.StdLib">
       <Version>1.9.0.1</Version>
@@ -79,7 +60,8 @@
       <Version>1.7.3</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
+
+  <!-- <ItemGroup>
     <ProjectReference Include="..\Xamarin.AmityChat\Xamarin.AmityChat.csproj">
       <Project>{57721D23-09DD-4395-AD13-C9C32190011E}</Project>
       <Name>Xamarin.AmityChat</Name>
@@ -88,24 +70,6 @@
       <Project>{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}</Project>
       <Name>Xamarin.AmitySocial</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ReferenceJar Include="Jars\AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\databinding-adapters-7.3.1.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\databinding-common-7.3.1.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\databinding-ktx-7.3.1.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\databinding-runtime-7.3.1.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\rxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\viewbinding-7.3.1.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\zhihu_matisse.jar" CopyToOutputDirectory="Always" />
-    <ReferenceJar Include="Jars\amity-sdk-6.9.0.jar" CopyToOutputDirectory="Always" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
+  </ItemGroup> -->
+
 </Project>
