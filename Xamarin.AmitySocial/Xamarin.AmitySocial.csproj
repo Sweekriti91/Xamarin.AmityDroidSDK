@@ -92,9 +92,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ReferenceJar Include="Jars\amity-video-player-6.9.0.jar" />
-    <ReferenceJar Include="Jars\amity-video-publisher-6.9.0.jar" />
-    <ReferenceJar Include="Jars\spyglass-3.0.1.jar" />
+    <ReferenceJar Include="Jars\amity-video-player-6.9.0.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\amity-video-publisher-6.9.0.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\spyglass-3.0.1.jar" CopyToOutputDirectory="Always" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

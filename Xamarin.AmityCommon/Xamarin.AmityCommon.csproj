@@ -62,12 +62,12 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ReferenceJar Include="Jars\amity-sdk-6.9.0.jar" />
-    <ReferenceJar Include="Jars\commons-io-2.6.jar" />
-    <ReferenceJar Include="Jars\timber-4.7.1.jar" />
-    <ReferenceJar Include="Jars\jetified-Matisse-0.5.3-5.jar" />
-    <ReferenceJar Include="Jars\jetified-rxbridge-1.0.1-beta05.jar" />
-    <ReferenceJar Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" />
+    <ReferenceJar Include="Jars\amity-sdk-6.9.0.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\commons-io-2.6.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\timber-4.7.1.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\jetified-Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\jetified-rxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
+    <ReferenceJar Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 <!--   To modify your build process, add your task inside one of the targets below and uncomment it. 
