@@ -19,5 +19,11 @@
   <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.PHOTO.Creator']" />
   <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.VIDEO.Creator']" />
 
+  <remove-node path="/api/package[starts-with(@name,'com.amity.coremedia')]" />
+  <remove-node path="/api/package[starts-with(@name,'com.amity.googlecode')]" />
+  <remove-node path="/api/package[starts-with(@name,'com.linkedin.android')]" />
+  <remove-node path="/api/package[starts-with(@name,'com.amity.github')]" />
+  <remove-node path="/api/package[starts-with(@name,'com.amity.socialcloud.uikit')]" />
+
 </metadata>
 

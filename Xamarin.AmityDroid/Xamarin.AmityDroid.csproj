@@ -20,45 +20,42 @@
     <AndroidLibrary Include="Jars\databinding-adapters-7.3.1.jar" Bind="false" />
     <AndroidLibrary Include="Jars\databinding-common-7.3.1.jar" Bind="false" />
     <AndroidLibrary Include="Jars\databinding-ktx-7.3.1.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\databinding-runtime-7.3.1.jar" Bind="false"/>
+    <AndroidLibrary Include="Jars\databinding-runtime-7.3.1.jar" Bind="false" />
     <AndroidLibrary Include="Jars\rxbridge-1.0.1-beta05.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\viewbinding-7.3.1.jar" Bind="false"/>
+    <AndroidLibrary Include="Jars\viewbinding-7.3.1.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\jetified-amity-socket-6.11.0.jar" Bind="false" />
+
 
     <!-- Workaround issue copying .aar file to output directory -->
     <None Include="Jars\amity-sdk-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Jars\jetified-Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" />
-    <None Include="Jars\databinding-adapters-7.3.1.jar" CopyToOutputDirectory="Always"  />
-    <None Include="Jars\databinding-common-7.3.1.jar" CopyToOutputDirectory="Always"  />
-    <None Include="Jars\databinding-ktx-7.3.1.jar" CopyToOutputDirectory="Always"  />
+    <None Include="Jars\databinding-adapters-7.3.1.jar" CopyToOutputDirectory="Always" />
+    <None Include="Jars\databinding-common-7.3.1.jar" CopyToOutputDirectory="Always" />
+    <None Include="Jars\databinding-ktx-7.3.1.jar" CopyToOutputDirectory="Always" />
     <None Include="Jars\databinding-runtime-7.3.1.jar" CopyToOutputDirectory="Always" />
-    <None Include="Jars\rxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always"  />
+    <None Include="Jars\rxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
     <None Include="Jars\viewbinding-7.3.1.jar" CopyToOutputDirectory="Always" />
+    <None Include="Jars\jetified-amity-socket-6.11.0.jar" CopyToOutputDirectory="Always" />
 
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.9.0.1</Version>
+    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.0.1">
     </PackageReference>
-    <PackageReference Include="Square.OkHttp3">
-      <Version>4.11.0.2</Version>
+    <PackageReference Include="Square.OkHttp3" Version="4.11.0.2">
     </PackageReference>
-    <PackageReference Include="Square.Retrofit2">
-      <Version>2.9.0.3</Version>
+    <PackageReference Include="Square.Retrofit2" Version="2.9.0.3">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Room.Runtime">
-      <Version>2.5.2.1</Version>
+    <PackageReference Include="Xamarin.AndroidX.Room.Runtime" Version="2.5.2.1">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Room.Room.RxJava2">
-      <Version>2.5.2.1</Version>
+    <PackageReference Include="Xamarin.AndroidX.Room.Room.RxJava2" Version="2.5.2.1">
     </PackageReference>
-    <PackageReference Include="GoogleGson">
-      <Version>2.10.1.4</Version>
+    <PackageReference Include="GoogleGson" Version="2.10.1.4">
     </PackageReference>
-    <PackageReference Include="Xamarin.KotlinX.Coroutines.Android">
-      <Version>1.7.3</Version>
+    <PackageReference Include="Xamarin.KotlinX.Coroutines.Android" Version="1.7.3">
     </PackageReference>
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.9.0.2" />
   </ItemGroup>
 
   <!-- <ItemGroup>
@@ -72,4 +69,8 @@
     </ProjectReference>
   </ItemGroup> -->
 
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.AmityChat\Xamarin.AmityChat.csproj" />
+    <ProjectReference Include="..\Xamarin.AmitySocial\Xamarin.AmitySocial.csproj" />
+  </ItemGroup>
 </Project>

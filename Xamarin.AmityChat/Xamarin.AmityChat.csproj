@@ -23,5 +23,7 @@
     <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.0.1" />
   </ItemGroup>
 
-  <!-- Add Reference to COMMON-->
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj" />
+  </ItemGroup>
 </Project>

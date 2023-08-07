@@ -13,52 +13,40 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <AndroidLibrary Include="social-release.aar" />
+    <AndroidLibrary Include="Jars\social-release.aar" />
     <AndroidLibrary Include="Jars\amity-video-player-6.9.0.jar" Bind="false" />
     <AndroidLibrary Include="Jars\amity-video-publisher-6.9.0.jar" Bind="false" />
     <AndroidLibrary Include="Jars\spyglass-3.0.1.jar" Bind="false" />
 
     <!-- Workaround issue copying .aar file to output directory -->
-    <None Include="Jars\amity-video-player-6.9.0.jar" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="Jars\amity-video-player-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Jars\amity-video-publisher-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Jars\spyglass-3.0.1.jar" CopyToOutputDirectory="PreserveNewest" />
 
   </ItemGroup>
 
   <ItemGroup>
-<PackageReference Include="Xamarin.Kotlin.StdLib">
-      <Version>1.9.0.1</Version>
+<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.0.1">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
-      <Version>1.0.0.19</Version>
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.19">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.ConstraintLayout">
-      <Version>2.1.4.6</Version>
+    <PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.6">
     </PackageReference>
-    <PackageReference Include="Xamarin.Google.Android.Material">
-      <Version>1.9.0.2</Version>
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.9.0.2">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.AppCompat">
-      <Version>1.6.1.3</Version>
+    <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.3">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Lifecycle.ReactiveStreams.Ktx">
-      <Version>2.6.1.3</Version>
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.ReactiveStreams.Ktx" Version="2.6.1.3">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.Lifecycle.Extensions">
-      <Version>2.2.0.19</Version>
+    <PackageReference Include="Xamarin.AndroidX.Lifecycle.Extensions" Version="2.2.0.19">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.SwipeRefreshLayout">
-      <Version>1.1.0.14</Version>
+    <PackageReference Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.14">
     </PackageReference>
-    <PackageReference Include="Xamarin.AndroidX.RecyclerView">
-      <Version>1.3.1</Version>
+    <PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.3.1">
     </PackageReference>
   </ItemGroup>
 
-    <!-- <ItemGroup>
-    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj">
-      <Project>{4EB0CF7A-2F22-4337-9112-58F49C0E616A}</Project>
-      <Name>Xamarin.AmityCommon</Name>
-    </ProjectReference>
-  </ItemGroup> -->
+  <ItemGroup>
+    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj" />
+  </ItemGroup>
 </Project>

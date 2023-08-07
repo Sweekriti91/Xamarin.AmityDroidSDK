@@ -8,5 +8,8 @@
   -->
 
 
-    <!--<remove-node path="/api/package[starts-with(@name,'com.amity.socialcloud.sdk')]" />-->
+    <remove-node path="/api/package[starts-with(@name,'com.amity.socialcloud.sdk')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.ekoapp')]" />
+    <remove-node path="/api/package[starts-with(@name,'androidx.databinding')]" />
+    <remove-node path="/api/package[@name='org.amity.types']/class[@name='ObjectId']" />
 </metadata>

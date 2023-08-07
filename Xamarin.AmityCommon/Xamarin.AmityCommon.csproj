@@ -1,37 +1,65 @@
 ﻿<Project Sdk="Xamarin.Legacy.Sdk">
-  <PropertyGroup>
-    <TargetFrameworks>monoandroid12.0;net7.0-android</TargetFrameworks>
-    <IsBindingProject>true</IsBindingProject>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+	<PropertyGroup>
+		<TargetFrameworks>monoandroid12.0;net7.0-android</TargetFrameworks>
+		<IsBindingProject>true</IsBindingProject>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
 
-    <!--Workaround for APT2260 build errors-->
-    <AndroidUseDesignerAssembly>False</AndroidUseDesignerAssembly>
-    <AndroidUseIntermediateDesignerFile>False</AndroidUseIntermediateDesignerFile>
+		<!--Workaround for APT2260 build errors-->
+		<AndroidUseDesignerAssembly>False</AndroidUseDesignerAssembly>
+		<AndroidUseIntermediateDesignerFile>False</AndroidUseIntermediateDesignerFile>
+		<AndroidClassParser>class-parse</AndroidClassParser>
 
-  </PropertyGroup>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <AndroidLibrary Include="Jars\common-release.aar" />
-    <AndroidLibrary Include="Jars\amity-sdk-6.9.0.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" Bind="false" />
-    <AndroidLibrary Update="Jars\jetified-Matisse-0.5.3-5.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\commons-io-2.6.jar" Bind="false"/>
-    <AndroidLibrary Include="Jars\timber-4.7.1.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\jetified-rxbridge-1.0.1-beta05.jar" Bind="false"/>
+	<ItemGroup>
+		<AndroidLibrary Include="Jars\common-release.aar" />
+		<AndroidLibrary Include="Jars\amity-sdk-6.13.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\amity-socket-6.13.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\amity-stream-api-6.13.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\AmityRxbridge-1.0.1-beta05.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\AmityRxLifeCycle-1.1.2-beta01.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\Matisse-0.5.3-5.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\glide-4.12.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\glide_annotations-4.12.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\glide_gifdecoder-4.12.0.jar" Bind="false" />
+		
+		<!--<AndroidLibrary Include="Jars\commons-io-2.6.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\timber-4.7.1.jar" Bind="false" /> -->
 
-    <!-- Workaround issue copying .aar file to output directory -->
-    <None Include="Jars\amity-sdk-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="Jars\jetified-AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="Jars\jetified-Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" />
-    <None Include="Jars\commons-io-2.6.jar" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="Jars\timber-4.7.1.jar" CopyToOutputDirectory="Always" />
-     <None Include="Jars\jetified-rxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
+		<!-- Workaround issue copying .aar file to output directory -->
+		<None Include="Jars\amity-sdk-6.13.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\amity-socket-6.13.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\amity-stream-api-6.13.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\AmityRxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\glide-4.12.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\glide_annotations-4.12.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\glide_gifdecoder-4.12.0.jar" CopyToOutputDirectory="Always" />
+		
+		<!--<None Include="Jars\commons-io-2.6.jar" CopyToOutputDirectory="Always" />
+    <None Include="Jars\timber-4.7.1.jar" CopyToOutputDirectory="Always" /> -->
 
-  </ItemGroup>
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.0.1" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.DataBindingAdapters" Version="8.1.0" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.DataBindingCommon" Version="8.1.0" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.DataBindingRuntime" Version="8.1.0" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.1.0" />
+		<PackageReference Include="Xamarin.AndroidX.Paging.Common" Version="3.2.0" />
+		<PackageReference Include="Xamarin.AndroidX.Paging.Common.Ktx" Version="3.2.0" />
+		<PackageReference Include="Xamarin.AndroidX.Paging.Runtime" Version="3.2.0" />
+		<PackageReference Include="Xamarin.AndroidX.Paging.Runtime.Ktx" Version="3.2.0" />
+		<PackageReference Include="Xamarin.AndroidX.Paging.RxJava2" Version="3.2.0" />
+		<PackageReference Include="Xamarin.AndroidX.Paging.RxJava2.Ktx" Version="3.2.0" />
+		<PackageReference Include="Xamarin.AndroidX.Room.Common" Version="2.5.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.Room.Room.Ktx" Version="2.5.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.Room.Room.RxJava2" Version="2.5.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.Room.Runtime" Version="2.5.2.1" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.0.1" />
+		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.9.0.2" />
+	</ItemGroup>
 </Project>
