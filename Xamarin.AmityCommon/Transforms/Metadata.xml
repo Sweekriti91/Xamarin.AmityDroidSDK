@@ -26,6 +26,9 @@
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.contract']/class[@name='AmityPickFileContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.contract']/class[@name='AmityPickImageContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.contract']/class[@name='AmityPickMemberContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.common.views.bottomsheet']/class[@name='AmityBottomSheetAdapter']/method[@name='onBindViewHolder' and count(parameter)=2 and parameter[1][@type='com.amity.socialcloud.uikit.common.common.views.bottomsheet.AmityBottomSheetAdapter.BottomSheetViewHolder'] and parameter[2][@type='int']]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.follow']/class[@name='FollowRelationshipModelMapper']"/>
+
 
 	<!--<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityActivityCameraBinding']" name="managedReturn">Android.Views.View</attr>-->
 	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityActivityCameraBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn" >Android.Views.View</attr>
@@ -33,5 +36,10 @@
 	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityBottomSheetBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
 	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityBottomSheetMenuBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
 
+	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.base']/class[@name='AmitySpacesItemDecoration.CREATOR']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn" >Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.amity.socialcloud.sdk.helper.core.mention']/class[@name='AmityMentionMetadata.CHANNEL.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
 	<attr path="/api/package[@name='com.amity.socialcloud.sdk.model.core.file']/class[@name='AmityAudio.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="return">Java.Lang.Object</attr>
+
+	<attr path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']/method[@name='text' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedType" >Java.Lang.String</attr>
 </metadata>
