@@ -24,6 +24,9 @@
 		<AndroidLibrary Include="Jars\glide-4.12.0.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\glide_annotations-4.12.0.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\glide_gifdecoder-4.12.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\PhotoView-2.3.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\rx-preferences-2.0.1.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\gson-2.8.9.jar" Bind="false" />
 		
 		<!--<AndroidLibrary Include="Jars\commons-io-2.6.jar" Bind="false" />
     <AndroidLibrary Include="Jars\timber-4.7.1.jar" Bind="false" /> -->
@@ -38,6 +41,9 @@
 		<None Include="Jars\glide-4.12.0.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\glide_annotations-4.12.0.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\glide_gifdecoder-4.12.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\PhotoView-2.3.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\rx-preferences-2.0.1.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\gson-2.8.9.jar" CopyToOutputDirectory="Always" />
 		
 		<!--<None Include="Jars\commons-io-2.6.jar" CopyToOutputDirectory="Always" />
     <None Include="Jars\timber-4.7.1.jar" CopyToOutputDirectory="Always" /> -->

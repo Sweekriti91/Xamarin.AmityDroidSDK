@@ -1,65 +1,37 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
 
-  <!--<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.model']/class[@name='AmitySelectMemberItem']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.imagepreview']/class[@name='AmityPreviewImage.Creator']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.model']/class[@name='AmityMenuItem']" /> -->
-
-
-  <!--new ones-->
-  <!--<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel']/class[@name='ChannelEntityMapper']" />
-  <remove-node path="/api/package[@name='org.amity.types']/class[@name='ObjectId']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel']/class[@name='ChannelModelMapper']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel.membership']/class[@name='ChannelMembershipEntityMapper']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel.membership']/class[@name='ChannelMembershipModelMapper']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.file']/class[@name='FileEntityMapper']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.follow.count']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.follow']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.follow.info']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.message.flag']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.category']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.reaction']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.comment.reaction']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.message']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.message.reaction']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.subchannel']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.settings.network.chat']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.user.flag']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.comment']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.video.data.stream']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.user']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.comment.flag']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.community']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.community.membership']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.feed']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.chat.settings']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.follow']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.poll']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post.flag']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.permission']/class[@name='AmityPermissions']/method[@name='size' and count(parameter)=0]" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.tag']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.role']/class[@name='AmityRoles']/method[@name='size' and count(parameter)=0]" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.social.poll']/class[@name='AmityPollAnswer.Creator']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.permission']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post.reaction']" />
-  <remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.role']" />-->
-
-	
 	<!-- Dependencies remove-->
 
 	<remove-node path="/api/package[starts-with(@name,'org.apache')]" />
 	<remove-node path="/api/package[starts-with(@name,'com.bumptech')]" />
 	<remove-node path="/api/package[starts-with(@name,'com.ekoapp')]" />
 	<remove-node path="/api/package[starts-with(@name,'com.zhihu.matisse')]" />
-
+	<remove-node path="/api/package[starts-with(@name,'com.google.gson')]" />
 	<remove-node path="/api/package[@name='org.amity.types']/class[@name='ObjectId']" />
-	
+
+
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.reaction']/class[@name='ReactionModelMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel.membership']/class[@name='ChannelMembershipEntityMapper']"/>
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.file']/class[@name='RawFileModelMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.follow.count']/class[@name='FollowCountEntityMapper']" />
+	<remode-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.follow']/class[@name='FollowRelationshipModelMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.community.membership']/class[@name='CommunityMembershipModelMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.community.membership']/class[@name='CommunityMembershipEntityMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.comment']/class[@name='CommentModelMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel.membership']/class[@name='ChannelMembershipModelMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel.membership']/class[@name='ChannelMembershipEntityMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.common.views.dialog.bottomsheet']/class[@name='BottomSheetMenuAdapter']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.memberpicker.adapter']/class[@name='AmityAddedMembersAdapter']/method[@name='getLayoutId' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='com.amity.socialcloud.uikit.common.model.AmitySelectMemberItem']]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.contract']/class[@name='AmityPickFileContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.contract']/class[@name='AmityPickImageContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.contract']/class[@name='AmityPickMemberContract']/method[@name='parseResult' and count(parameter)=2 and parameter[1][@type='int'] and parameter[2][@type='android.content.Intent']]" />
+
+	<!--<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityActivityCameraBinding']" name="managedReturn">Android.Views.View</attr>-->
+	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityActivityCameraBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn" >Android.Views.View</attr>
+	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityActivityImagePreviewBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn" >Android.Views.View</attr>
+	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityBottomSheetBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
+	<attr path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']/class[@name='AmityBottomSheetMenuBinding']/method[@name='getRoot' and count(parameter)=0]" name="managedReturn">Android.Views.View</attr>
+
+	<attr path="/api/package[@name='com.amity.socialcloud.sdk.model.core.file']/class[@name='AmityAudio.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="return">Java.Lang.Object</attr>
 </metadata>
