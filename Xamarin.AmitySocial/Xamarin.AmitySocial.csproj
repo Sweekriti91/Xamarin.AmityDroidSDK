@@ -9,18 +9,19 @@
     <!--Workaround for APT2260 build errors-->
     <AndroidUseDesignerAssembly>False</AndroidUseDesignerAssembly>
     <AndroidUseIntermediateDesignerFile>False</AndroidUseIntermediateDesignerFile>
+    <AndroidClassParser>class-parse</AndroidClassParser>
 
   </PropertyGroup>
 
   <ItemGroup>
     <AndroidLibrary Include="Jars\social-release.aar" />
-    <AndroidLibrary Include="Jars\amity-video-player-6.9.0.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\amity-video-publisher-6.9.0.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\amity-video-player-6.13.0.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\amity-video-publisher-6.13.0.jar" Bind="false" />
     <AndroidLibrary Include="Jars\spyglass-3.0.1.jar" Bind="false" />
 
     <!-- Workaround issue copying .aar file to output directory -->
-    <None Include="Jars\amity-video-player-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="Jars\amity-video-publisher-6.9.0.jar" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Jars\amity-video-player-6.13.0.jar" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Jars\amity-video-publisher-6.13.0.jar" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Jars\spyglass-3.0.1.jar" CopyToOutputDirectory="PreserveNewest" />
 
   </ItemGroup>

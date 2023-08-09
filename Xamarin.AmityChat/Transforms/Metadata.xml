@@ -1,10 +1,18 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityActivityChatBinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.recent.adapter']/class[@name='AmityRecentChatViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityDialogChatBinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityFragmentChatHomePageBinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityFragmentCreateGroupChatBinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityFragmentChatRoomBinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityFragmentDirectoryBinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.databinding']/class[@name='AmityViewAudioMsgErrorBinding']" />
+
+
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.generated.callback']/class[@name='OnScrollStateChanged']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.recent.adapter']/class[@name='AmityRecentChatAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.messages.adapter']/class[@name='AmityMessagePagingAdapter']" />
+
 </metadata>
 

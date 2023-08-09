@@ -9,6 +9,7 @@
     <!--Workaround for APT2260 build errors-->
     <AndroidUseDesignerAssembly>False</AndroidUseDesignerAssembly>
     <AndroidUseIntermediateDesignerFile>False</AndroidUseIntermediateDesignerFile>
+    <AndroidClassParser>class-parse</AndroidClassParser>
 
   </PropertyGroup>
 
