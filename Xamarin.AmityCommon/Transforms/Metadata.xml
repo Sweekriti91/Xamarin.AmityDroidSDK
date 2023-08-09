@@ -121,4 +121,25 @@
 	<attr path="/api/package[@name='com.amity.socialcloud.sdk.model.core.file']/class[@name='AmityAudio.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="return">Java.Lang.Object</attr>
 
 	<attr path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']/method[@name='text' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" name="managedType" >Java.Lang.String</attr>
+
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.permission']/class[@name='AmityPermissions']/method[@name='size' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.role']/class[@name='AmityRoles']/method[@name='size' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.tag']/class[@name='AmityTags']/method[@name='size' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='size' and count(parameter)=0]" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='values' and count(parameter)=0]" />
+
+
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='keySet' and count(parameter)=0]" name="managedReturn" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='entrySet' and count(parameter)=0]" />
+
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.imagepreview']/class[@name='AmityImagePreviewPagerAdapter']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.memberpicker.adapter']/class[@name='AmityAddedMembersAdapter']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.memberpicker.adapter']/class[@name='AmityMembersListAdapter']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.memberpicker.adapter']/class[@name='AmitySearchResultAdapter']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.memberpicker.adapter']/class[@name='AmitySelectedMemberAdapter']" />
+
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']" />
+
+
+
 </metadata>
