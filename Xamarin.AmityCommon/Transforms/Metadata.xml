@@ -129,7 +129,7 @@
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='values' and count(parameter)=0]" />
 
 
-	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='keySet' and count(parameter)=0]" name="managedReturn" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='keySet' and count(parameter)=0]" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.reaction']/class[@name='AmityReactionMap']/method[@name='entrySet' and count(parameter)=0]" />
 
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.imagepreview']/class[@name='AmityImagePreviewPagerAdapter']" />
