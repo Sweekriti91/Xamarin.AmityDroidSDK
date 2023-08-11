@@ -105,5 +105,6 @@
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']/method[@name='metadata' and count(parameter)=1 and parameter[1][@type='com.google.gson.JsonObject']]" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']/method[@name='text' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />-->
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']" />
-
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']/class[@name='PostEventPersister']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']/class[@name='PostQueryPersister']" />
 </metadata>
