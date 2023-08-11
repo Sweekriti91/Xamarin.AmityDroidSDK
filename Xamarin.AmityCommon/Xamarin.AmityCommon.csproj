@@ -27,9 +27,12 @@
 		<AndroidLibrary Include="Jars\PhotoView-2.3.0.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\rx-preferences-2.0.1.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\gson-2.8.9.jar" Bind="false" />
-		
-		<!--<AndroidLibrary Include="Jars\commons-io-2.6.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\timber-4.7.1.jar" Bind="false" /> -->
+		<AndroidLibrary Include="Jars\commons-io-2.6.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\timber-4.7.1.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\databinding-common-8.1.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\rxandroid-3.0.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\rxjava-1.3.8.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\rxjava-3.1.5.jar" Bind="false" />
 
 		<!-- Workaround issue copying .aar file to output directory -->
 		<None Include="Jars\amity-sdk-6.13.0.jar" CopyToOutputDirectory="Always" />
@@ -44,9 +47,12 @@
 		<None Include="Jars\PhotoView-2.3.0.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\rx-preferences-2.0.1.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\gson-2.8.9.jar" CopyToOutputDirectory="Always" />
-		
-		<!--<None Include="Jars\commons-io-2.6.jar" CopyToOutputDirectory="Always" />
-    <None Include="Jars\timber-4.7.1.jar" CopyToOutputDirectory="Always" /> -->
+		<None Include="Jars\commons-io-2.6.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\timber-4.7.1.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\databinding-common-8.1.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\rxandroid-3.0.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\rxjava-1.3.8.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\rxjava-3.1.5.jar" CopyToOutputDirectory="Always" />
 
 	</ItemGroup>
 

@@ -8,7 +8,24 @@
 	<remove-node path="/api/package[starts-with(@name,'com.zhihu.matisse')]" />
 	<remove-node path="/api/package[starts-with(@name,'com.google.gson')]" />
 	<remove-node path="/api/package[@name='org.amity.types']/class[@name='ObjectId']" />
-
+	<remove-node path="/api/package[@name='rx']/class[@name='Subscriber']" />
+	<remove-node path="/api/package[@name='rx.internal.observers']" />
+	<remove-node path="/api/package[@name='rx.subjects']" />
+	<remove-node path="/api/package[@name='rx.internal.util']" />
+	<remove-node path="/api/package[@name='rx.internal.operators']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.observers']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.subjects']" />
+	<!--<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.completable']" />-->
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.observers']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.subscribers']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.subscriptions']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.flowable']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.schedulers']" />
+	<remove-node path="/api/package[@name='rx.internal.util.atomic']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.completable']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.observable']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.single']" />
+	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.util']" />
 
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.reaction']/class[@name='ReactionModelMapper']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']" />
@@ -139,7 +156,8 @@
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.memberpicker.adapter']/class[@name='AmitySelectedMemberAdapter']" />
 
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.api.social.post.update']/class[@name='AmityTextPostUpdate.Builder']" />
-
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']/class[@name='PostEventPersister']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']/class[@name='PostQueryPersister']" />
 
 
 </metadata>
