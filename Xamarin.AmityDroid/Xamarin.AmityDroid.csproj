@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid12.0;net7.0-android</TargetFrameworks>
+    <TargetFrameworks>monoandroid13.0;monoandroid12.0;net7.0-android</TargetFrameworks>
     <IsBindingProject>true</IsBindingProject>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
