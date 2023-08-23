@@ -2,6 +2,8 @@
 using Android.OS;
 using Android.Runtime;
 using AndroidX.AppCompat.App;
+using Com.Amity.Socialcloud.Sdk.Api.Core;
+using Com.Amity.Socialcloud.Sdk.Api.Core.Endpoint;
 
 namespace AmityDroidSampleXam
 {
@@ -11,6 +13,8 @@ namespace AmityDroidSampleXam
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
+            AmityCoreClient.Instance.Setup("<api_key>", AmityEndpoint.US.Instance);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
