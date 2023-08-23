@@ -102,24 +102,6 @@
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.9.0.2" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.7" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Xamarin.AmityDroid\Xamarin.AmityDroid.csproj">
-      <Project>{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}</Project>
-      <Name>Xamarin.AmityDroid</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xamarin.AmityChat\Xamarin.AmityChat.csproj">
-      <Project>{57721D23-09DD-4395-AD13-C9C32190011E}</Project>
-      <Name>Xamarin.AmityChat</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xamarin.AmityCommon\Xamarin.AmityCommon.csproj">
-      <Project>{4EB0CF7A-2F22-4337-9112-58F49C0E616A}</Project>
-      <Name>Xamarin.AmityCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Xamarin.AmitySocial\Xamarin.AmitySocial.csproj">
-      <Project>{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}</Project>
-      <Name>Xamarin.AmitySocial</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

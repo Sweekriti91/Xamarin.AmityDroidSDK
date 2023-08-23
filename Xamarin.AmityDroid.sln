@@ -3,15 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.25
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityDroid", "Xamarin.AmityDroid\Xamarin.AmityDroid.csproj", "{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityChat", "Xamarin.AmityChat\Xamarin.AmityChat.csproj", "{57721D23-09DD-4395-AD13-C9C32190011E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmitySocial", "Xamarin.AmitySocial\Xamarin.AmitySocial.csproj", "{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityCommon", "Xamarin.AmityCommon\Xamarin.AmityCommon.csproj", "{4EB0CF7A-2F22-4337-9112-58F49C0E616A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmityDroidSampleXam", "AmityDroidSampleXam\AmityDroidSampleXam.csproj", "{235AAE65-8DD4-4F79-B1C6-287B97A8F635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmityDroid", "AmityDroid\AmityDroid.csproj", "{D50BF105-9112-42CC-AF42-802AEC5099E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44A1E48B-5980-4509-BD87-5ABBAEC76BEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57721D23-09DD-4395-AD13-C9C32190011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57721D23-09DD-4395-AD13-C9C32190011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57721D23-09DD-4395-AD13-C9C32190011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57721D23-09DD-4395-AD13-C9C32190011E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BFA1A2C-DEC7-4E89-9C6F-5510A6363B4F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EB0CF7A-2F22-4337-9112-58F49C0E616A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
