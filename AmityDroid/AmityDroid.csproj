@@ -1,6 +1,6 @@
-<Project Sdk="Xamarin.Legacy.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid12.0;net7.0-android</TargetFrameworks>
+    <TargetFrameworks>net7.0-android</TargetFrameworks>
     <IsBindingProject>true</IsBindingProject>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
@@ -14,10 +14,10 @@
 
   <ItemGroup>
 
-      <AndroidLibrary Include="amity-uikit-release.aar" />
-		<AndroidLibrary Include="common-release.aar" Bind="false" />
-		<AndroidLibrary Include="chat-release.aar" Bind="false" />
-		<AndroidLibrary Include="social-release.aar" Bind="false" />
+		<AndroidLibrary Include="amity-uikit-release.aar" Pack="true" />
+		<AndroidLibrary Include="common-release.aar" Pack="true" />
+		<AndroidLibrary Include="chat-release.aar" Pack="true" />
+		<AndroidLibrary Include="social-release.aar" Pack="true" />
 		<AndroidLibrary Include="amity-video-player-6.13.0.jar" Bind="false" />
 		<AndroidLibrary Include="amity-video-publisher-6.13.0.jar" Bind="false" />
 		<AndroidLibrary Include="spyglass-3.0.1.jar" Bind="false" />
@@ -39,6 +39,33 @@
 		<AndroidLibrary Include="rxandroid-3.0.0.jar" Bind="false" />
 		<AndroidLibrary Include="rxjava-1.3.8.jar" Bind="false" />
 		<AndroidLibrary Include="rxjava-3.1.5.jar" Bind="false" />
+
+		<!-- Workaround issue copying .aar file to output directory -->
+		<None Include="amity-uikit-release.aar" CopyToOutputDirectory="Always" />
+		<None Include="common-release.aar" CopyToOutputDirectory="Always" />
+		<None Include="chat-release.aar" CopyToOutputDirectory="Always" />
+		<None Include="social-release.aar" CopyToOutputDirectory="Always" />
+		<None Include="amity-sdk-6.13.0.jar" CopyToOutputDirectory="Always" Pack="true" />
+		<None Include="amity-socket-6.13.0.jar" CopyToOutputDirectory="Always" Pack="true"/>
+		<None Include="amity-stream-api-6.13.0.jar" CopyToOutputDirectory="Always" Pack="true" />
+		<None Include="AmityRxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" Pack="true"/>
+		<None Include="AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" Pack="true"/>
+		<None Include="Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" Pack="true"/>
+<!--		<None Include="glide-4.12.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="glide_annotations-4.12.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="glide_gifdecoder-4.12.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="PhotoView-2.3.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="rx-preferences-2.0.1.jar" CopyToOutputDirectory="Always" />
+		<None Include="gson-2.8.9.jar" CopyToOutputDirectory="Always" />
+		<None Include="commons-io-2.6.jar" CopyToOutputDirectory="Always" />
+		<None Include="timber-4.7.1.jar" CopyToOutputDirectory="Always" />
+		<None Include="databinding-common-8.1.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="rxandroid-3.0.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="rxjava-1.3.8.jar" CopyToOutputDirectory="Always" />
+		<None Include="rxjava-3.1.5.jar" CopyToOutputDirectory="Always" />
+		<None Include="amity-video-player-6.13.0.jar" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="amity-video-publisher-6.13.0.jar" CopyToOutputDirectory="PreserveNewest" />
+		<None Include="spyglass-3.0.1.jar" CopyToOutputDirectory="PreserveNewest" />-->
 
   </ItemGroup>
 
@@ -66,6 +93,7 @@
 		<PackageReference Include="Xamarin.AndroidX.Lifecycle.Extensions" Version="2.2.0.19" />
 		<PackageReference Include="Xamarin.AndroidX.SwipeRefreshLayout" Version="1.1.0.14" />
 		<PackageReference Include="Xamarin.AndroidX.RecyclerView" Version="1.3.1" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.0.1" />
 	</ItemGroup>
 
 </Project>
