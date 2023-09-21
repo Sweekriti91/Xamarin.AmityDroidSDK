@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmityCommon", "Xama
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.AmitySample", "Xamarin.AmitySample\Xamarin.AmitySample.csproj", "{2B9F4C31-C4BE-46A3-A770-C8910AA56E25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maui.AmitySample", "Maui.AmitySample\Maui.AmitySample.csproj", "{237F07C9-4CB4-499C-BE23-D36F5C8D5F27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2B9F4C31-C4BE-46A3-A770-C8910AA56E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9F4C31-C4BE-46A3-A770-C8910AA56E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9F4C31-C4BE-46A3-A770-C8910AA56E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237F07C9-4CB4-499C-BE23-D36F5C8D5F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237F07C9-4CB4-499C-BE23-D36F5C8D5F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237F07C9-4CB4-499C-BE23-D36F5C8D5F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237F07C9-4CB4-499C-BE23-D36F5C8D5F27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

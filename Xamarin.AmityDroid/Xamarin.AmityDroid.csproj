@@ -15,10 +15,10 @@
 
   <ItemGroup>
     <AndroidLibrary Include="Jars\amity-uikit-release.aar" />
-    <!--<AndroidLibrary Include="Jars\amity-sdk-6.13.0.jar" Bind="false" />-->
+    <AndroidLibrary Include="Jars\amity-sdk-6.13.0.jar" Bind="false" />
 
     <!-- Workaround issue copying .aar file to output directory -->
-		<!--<None Include="Jars\amity-sdk-6.13.0.jar" CopyToOutputDirectory="Always" />-->
+		<None Include="Jars\amity-sdk-6.13.0.jar" CopyToOutputDirectory="Always" />
   </ItemGroup>
 
   <ItemGroup>
