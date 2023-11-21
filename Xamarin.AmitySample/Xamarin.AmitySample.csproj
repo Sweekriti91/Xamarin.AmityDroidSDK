@@ -107,6 +107,12 @@
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xam.AmityDroid\Xam.AmityDroid.csproj">
+      <Project>{A2792E30-AEC6-4071-B4D7-93BAC48271C8}</Project>
+      <Name>Xam.AmityDroid</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

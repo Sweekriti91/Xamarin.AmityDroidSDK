@@ -61,9 +61,6 @@
       <LibraryProjectZip Include="Jars\amity-uikit-release.aar" />
     </ItemGroup>
     <ItemGroup>
-      <EmbeddedReferenceJar Include="Jars\amity-sdk-6.13.0.jar" />
-    </ItemGroup>
-    <ItemGroup>
       <ProjectReference Include="..\Xam.AmityChat\Xam.AmityChat.csproj">
         <Project>{28B45252-D0B2-4D20-BFA4-844DE85A1F4C}</Project>
         <Name>Xam.AmityChat</Name>
@@ -76,6 +73,9 @@
         <Project>{F52B470E-EFBC-49BA-9F80-02BC635EE18A}</Project>
         <Name>Xam.AmityCommon</Name>
       </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedReferenceJar Include="Jars\amity-sdk-6.21.0.jar" />
     </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

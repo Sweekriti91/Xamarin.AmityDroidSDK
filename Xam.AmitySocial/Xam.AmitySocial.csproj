@@ -88,9 +88,9 @@
     <LibraryProjectZip Include="Jars\social-release.aar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\amity-video-publisher-6.13.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\amity-video-player-6.13.0.jar" />
     <EmbeddedReferenceJar Include="Jars\spyglass-3.0.1.jar" />
+    <EmbeddedReferenceJar Include="Jars\amity-video-player-6.21.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\amity-video-publisher-6.21.0.jar" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xam.AmityCommon\Xam.AmityCommon.csproj">

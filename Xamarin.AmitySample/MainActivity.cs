@@ -19,6 +19,8 @@ namespace Xamarin.AmitySample
             base.OnCreate(savedInstanceState);
             //Xamarin.Essentials.Init(this, savedInstanceState);
 
+            var amity = AmityCoreClient.Instance;
+
             SetContentView(Resource.Layout.activity_main);
 
             Toolbar toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
