@@ -1,0 +1,116 @@
+﻿<metadata>
+
+    <!--remove third party-->
+    <remove-node path="/api/package[starts-with(@name,'com.linkedin.android.spyglass')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.amity.googlecode')]" />
+    <remove-node path="/api/package[starts-with(@name,'com.amity.github.faucamp')]" />
+
+
+    <remove-node path="/api/package[starts-with(@name,'com.amity.coremedia.iso')]" />
+
+
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.databinding']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.diffutil']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySettingsToggleContentViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySettingsTextContentViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySettingsRadioContentViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySettingsNavContentViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySettingsMarginViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySettingsHeaderViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting.viewholder']/class[@name='AmitySeparateContentViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityBasePostAttachmentViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCategoryCommunityItemViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCategoryItemViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityCreatePostImageViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityViewPostFileFooterViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityViewAllCommunityPreviewItemViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityUserMentionViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityTwoPostImageChildrenViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityThreePostImageChildrenViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostReplyDeletedViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostCountViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostCommentDeletedViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostAttachmentOptionViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollSingleAnswerViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollMultipleAnswersViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollDraftAnswerViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.following']/class[@name='AmityFollowingAdapter.AmityFollowingItemViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.followrequest']/class[@name='AmityFollowRequestsAdapter.AmityFollowRequestsViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.followers']/class[@name='AmityFollowerAdapter.AmityFollowersItemViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityRecommendedCommunitiesAdapter.AmityRecommendedCommunityViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityTrendingCommunityAdapter.AmityTrendingCommunityViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityMyCommunitiesViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityMyCommunityListViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.members']/class[@name='AmityCommunityModeratorAdapter.AmityModeratorViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityMyCommunityPreviewItemViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityCreatePostCommunitySelectionAdapter.AmityCommunityViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityOnePostImageChildrenViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityFourPostImageChildrenViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollAnswerVotedViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCategoryCommunityListAdapter']/constructor[@name='AmityCategoryCommunityListAdapter' and count(parameter)=2 and parameter[1][@type='com.amity.socialcloud.uikit.community.explore.adapter.AmityCategoryCommunityListAdapter.AmityCommunityDiffUtil'] and parameter[2][@type='com.amity.socialcloud.uikit.community.explore.listener.AmityCommunityItemClickListener']]" />
+
+
+
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.search']/class[@name='AmityUsersAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCommunityCategoryAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.members']/class[@name='AmityCommunityMembersAdapter']" />
+
+
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='PostMedia.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.domain.model']/class[@name='AmityFileAttachment.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.domain.model']/class[@name='AmityFileAttachment.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.data']/class[@name='AmitySelectCategoryItem.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.data']/class[@name='AmitySelectCategoryItem.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn" >Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.data']/class[@name='AmitySelectMemberItem.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.data']/class[@name='AmitySelectMemberItem.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+
+
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCategoryCommunityListAdapter.AmityCommunityDiffUtil']" />
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityUserMention.CREATOR']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityUserMention.CREATOR']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn" >Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.FILE.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.FILE.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.PHOTO.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.PHOTO.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.VIDEO.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='AmityPostAttachmentOptionItem.VIDEO.Creator']/method[@name='newArray' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object[]</attr>
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.model']/class[@name='PostMedia.Creator']/method[@name='createFromParcel' and count(parameter)=1 and parameter[1][@type='android.os.Parcel']]" name="managedReturn">Java.Lang.Object</attr>
+
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.followers']/class[@name='AmityFollowerAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCategoryCommunityListAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.following']/class[@name='AmityFollowingAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.followrequest']/class[@name='AmityFollowRequestsAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityCategoryListAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityRecommendedCommunitiesAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.explore.adapter']/class[@name='AmityTrendingCommunityAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityMyCommunitiesAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityMyCommunityListAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.members']/class[@name='AmityCommunityModeratorAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityMyCommunityPreviewAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityCreatePostCommunitySelectionAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityCreatePostFileAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityCreatePostMediaAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.setting']/class[@name='AmitySettingsItemAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollAnswerAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostAttachmentOptionsAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostDummyAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollAnswerVotedAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostFooterAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostContentAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostHeaderAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostImageChildrenAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPollDraftAnswerAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostCountAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostListAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostViewHolder']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityPostViewFileAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityReactionAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityUserMentionAdapter']" />
+    <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityUserMentionPagingDataAdapter']" />
+
+    <attr path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.listener']/interface[@name='AmityPostItemActionListener']/method[@name='onClickItem' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='int']]" name="managedName">ClickItemPosition</attr>
+
+
+
+</metadata>
+
