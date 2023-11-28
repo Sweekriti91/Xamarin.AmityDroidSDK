@@ -1,5 +1,5 @@
 ﻿<resources>
-    <string name="app_name">AmitySampleMaui</string>
+    <string name="app_name">AmitySample</string>
     <string name="app_text">Hello, Android!</string>
 </resources>
 

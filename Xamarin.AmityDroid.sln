@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.810.25
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmityDroid", "AmityDroid\AmityDroid.csproj", "{D50BF105-9112-42CC-AF42-802AEC5099E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmitySampleMaui", "AmitySampleMaui\AmitySampleMaui.csproj", "{C673B7A7-47C4-4815-9A7B-C868A9AF98FD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmityDroidSampleXam", "AmityDroidSampleXam\AmityDroidSampleXam.csproj", "{235AAE65-8DD4-4F79-B1C6-287B97A8F635}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmitySample", "AmitySample\AmitySample.csproj", "{5FCF1E46-B26E-4104-82AA-B6356158754E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +17,10 @@ Global
 		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D50BF105-9112-42CC-AF42-802AEC5099E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C673B7A7-47C4-4815-9A7B-C868A9AF98FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C673B7A7-47C4-4815-9A7B-C868A9AF98FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C673B7A7-47C4-4815-9A7B-C868A9AF98FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C673B7A7-47C4-4815-9A7B-C868A9AF98FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{235AAE65-8DD4-4F79-B1C6-287B97A8F635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCF1E46-B26E-4104-82AA-B6356158754E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCF1E46-B26E-4104-82AA-B6356158754E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCF1E46-B26E-4104-82AA-B6356158754E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCF1E46-B26E-4104-82AA-B6356158754E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
