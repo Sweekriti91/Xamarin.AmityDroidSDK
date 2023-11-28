@@ -38,7 +38,6 @@
 		<AndroidLibrary Include="databinding-common-8.1.0.jar" Bind="false" />
 		<AndroidLibrary Include="rxandroid-3.0.0.jar" Bind="false" />
 		<AndroidLibrary Include="rxjava-1.3.8.jar" Bind="false" />
-		<AndroidLibrary Include="rxjava-3.1.5.jar" Bind="false" />
 
 		<!-- Workaround issue copying .aar file to output directory -->
 		<None Include="amity-uikit-release.aar" CopyToOutputDirectory="Always" />
