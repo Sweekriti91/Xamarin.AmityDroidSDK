@@ -253,4 +253,12 @@
     <remove-node path="/api/package[@name='com.amity.socialcloud.uikit.chat.messages.adapter']/class[@name='AmityMessagePagingAdapter']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.newsfeed.adapter']/class[@name='AmityBasePostImageChildrenViewHolder']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.community.mycommunity.adapter']/class[@name='AmityBaseMyCommunityPreviewItemViewHolder']"/>
+
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.marker.subchannel']/class[@name='UserSubChannelMarkerEntityMapper']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.chat.message']/class[@name='AmityMessagePreview']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityChannelPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityUserPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.unread']/class[@name='UserUnread']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.social.comment']/class[@name='AmityComment.Target']" />
+
 </metadata>
