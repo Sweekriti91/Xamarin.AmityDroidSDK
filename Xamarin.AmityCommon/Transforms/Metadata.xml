@@ -159,5 +159,16 @@
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']/class[@name='PostEventPersister']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.social.data.post']/class[@name='PostQueryPersister']" />
 
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.marker.subchannel']/class[@name='UserSubChannelMarkerEntityMapper']"/>
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.chat.message']/class[@name='AmityMessagePreview']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.social.comment']/class[@name='AmityComment.Target']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityChannelPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityUserPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.unread']/class[@name='UserUnread']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityChannelPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityUserPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.unread']/class[@name='UserUnread']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityChannelPresence']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.model.core.presence']/class[@name='AmityUserPresence']" />
 
 </metadata>

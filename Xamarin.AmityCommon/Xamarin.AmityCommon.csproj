@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Xamarin.Legacy.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>monoandroid13.0;monoandroid12.0;net7.0-android</TargetFrameworks>
+		<TargetFrameworks>monoandroid13.0;monoandroid12.0;net8.0-android</TargetFrameworks>
 		<IsBindingProject>true</IsBindingProject>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
 		<Nullable>enable</Nullable>
@@ -15,9 +15,9 @@
 
 	<ItemGroup>
 		<AndroidLibrary Include="Jars\common-release.aar" />
-		<AndroidLibrary Include="Jars\amity-sdk-6.13.0.jar" Bind="false" />
-		<AndroidLibrary Include="Jars\amity-socket-6.13.0.jar" Bind="false" />
-		<AndroidLibrary Include="Jars\amity-stream-api-6.13.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\amity-sdk-6.21.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\amity-socket-6.21.0.jar" Bind="false" />
+		<AndroidLibrary Include="Jars\amity-stream-api-6.21.0.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\AmityRxbridge-1.0.1-beta05.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\AmityRxLifeCycle-1.1.2-beta01.jar" Bind="false" />
 		<AndroidLibrary Include="Jars\Matisse-0.5.3-5.jar" Bind="false" />
@@ -35,9 +35,9 @@
 		<AndroidLibrary Include="Jars\rxjava-3.1.5.jar" Bind="false" />
 
 		<!-- Workaround issue copying .aar file to output directory -->
-		<None Include="Jars\amity-sdk-6.13.0.jar" CopyToOutputDirectory="Always" />
-		<None Include="Jars\amity-socket-6.13.0.jar" CopyToOutputDirectory="Always" />
-		<None Include="Jars\amity-stream-api-6.13.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\amity-sdk-6.21.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\amity-socket-6.21.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="Jars\amity-stream-api-6.21.0.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\AmityRxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" />
 		<None Include="Jars\Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" />

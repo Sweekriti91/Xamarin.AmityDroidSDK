@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Xamarin.Legacy.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>monoandroid13.0;monoandroid12.0;net7.0-android</TargetFrameworks>
+    <TargetFrameworks>monoandroid13.0;monoandroid12.0;net8.0-android</TargetFrameworks>
     <IsBindingProject>true</IsBindingProject>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
@@ -15,13 +15,13 @@
 
   <ItemGroup>
     <AndroidLibrary Include="Jars\social-release.aar" />
-    <AndroidLibrary Include="Jars\amity-video-player-6.13.0.jar" Bind="false" />
-    <AndroidLibrary Include="Jars\amity-video-publisher-6.13.0.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\amity-video-player-6.21.0.jar" Bind="false" />
+    <AndroidLibrary Include="Jars\amity-video-publisher-6.21.0.jar" Bind="false" />
     <AndroidLibrary Include="Jars\spyglass-3.0.1.jar" Bind="false" />
 
     <!-- Workaround issue copying .aar file to output directory -->
-    <None Include="Jars\amity-video-player-6.13.0.jar" CopyToOutputDirectory="PreserveNewest" />
-    <None Include="Jars\amity-video-publisher-6.13.0.jar" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Jars\amity-video-player-6.21.0.jar" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Jars\amity-video-publisher-6.21.0.jar" CopyToOutputDirectory="PreserveNewest" />
     <None Include="Jars\spyglass-3.0.1.jar" CopyToOutputDirectory="PreserveNewest" />
 
   </ItemGroup>

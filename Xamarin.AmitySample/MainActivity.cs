@@ -7,7 +7,7 @@ using AndroidX.AppCompat.Widget;
 using AndroidX.AppCompat.App;
 using Google.Android.Material.FloatingActionButton;
 using Google.Android.Material.Snackbar;
-using Com.Amity.Socialcloud.Sdk.Api.Core;
+//using Com.Amity.Socialcloud.Sdk.Api.Core;
 
 namespace Xamarin.AmitySample
 {
@@ -19,7 +19,7 @@ namespace Xamarin.AmitySample
             base.OnCreate(savedInstanceState);
             //Xamarin.Essentials.Init(this, savedInstanceState);
 
-            var amity = AmityCoreClient.Instance;
+            //var amity = AmityCoreClient.Instance;
 
             SetContentView(Resource.Layout.activity_main);
 
