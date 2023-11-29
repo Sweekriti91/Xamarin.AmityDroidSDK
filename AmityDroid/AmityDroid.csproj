@@ -18,12 +18,12 @@
 		<AndroidLibrary Include="common-release.aar" Pack="true" />
 		<AndroidLibrary Include="chat-release.aar" Pack="true" />
 		<AndroidLibrary Include="social-release.aar" Pack="true" />
+		<AndroidLibrary Include="amity-sdk-6.21.0.jar" Bind="false" />
 		<AndroidLibrary Include="amity-video-player-6.21.0.jar" Bind="false" />
 		<AndroidLibrary Include="amity-video-publisher-6.21.0.jar" Bind="false" />
 		<AndroidLibrary Include="spyglass-3.0.1.jar" Bind="false" />
-		<AndroidLibrary Include="amity-sdk-6.21.0.jar" Bind="false" />
-		<AndroidLibrary Include="amity-socket-6.21.0.jar" Bind="false" />
-		<AndroidLibrary Include="amity-stream-api-6.21.0.jar" Bind="false" />
+		<!--<AndroidLibrary Include="amity-socket-6.21.0.jar" Bind="false" />-->
+		<!--<AndroidLibrary Include="amity-stream-api-6.21.0.jar" Bind="false" />-->
 		<AndroidLibrary Include="AmityRxbridge-1.0.1-beta05.jar" Bind="false" />
 		<AndroidLibrary Include="AmityRxLifeCycle-1.1.2-beta01.jar" Bind="false" />
 		<AndroidLibrary Include="Matisse-0.5.3-5.jar" Bind="false" />
@@ -44,12 +44,12 @@
 		<None Include="common-release.aar" CopyToOutputDirectory="Always" />
 		<None Include="chat-release.aar" CopyToOutputDirectory="Always" />
 		<None Include="social-release.aar" CopyToOutputDirectory="Always" />
-		<None Include="amity-sdk-6.21.0.jar" CopyToOutputDirectory="Always" Pack="true" />
-		<None Include="amity-socket-6.21.0.jar" CopyToOutputDirectory="Always" Pack="true" />
-		<None Include="amity-stream-api-6.21.0.jar" CopyToOutputDirectory="Always" Pack="true" />
-		<None Include="AmityRxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" Pack="true" />
-		<None Include="AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" Pack="true" />
-		<None Include="Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always" Pack="true" />
+		<None Include="amity-sdk-6.21.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="amity-socket-6.21.0.jar" CopyToOutputDirectory="Always" />
+		<None Include="amity-stream-api-6.21.0.jar" CopyToOutputDirectory="Always"/>
+		<None Include="AmityRxbridge-1.0.1-beta05.jar" CopyToOutputDirectory="Always" />
+		<None Include="AmityRxLifeCycle-1.1.2-beta01.jar" CopyToOutputDirectory="Always" />
+		<None Include="Matisse-0.5.3-5.jar" CopyToOutputDirectory="Always"/>
 <!--		<None Include="glide-4.12.0.jar" CopyToOutputDirectory="Always" />
 		<None Include="glide_annotations-4.12.0.jar" CopyToOutputDirectory="Always" />
 		<None Include="glide_gifdecoder-4.12.0.jar" CopyToOutputDirectory="Always" />
