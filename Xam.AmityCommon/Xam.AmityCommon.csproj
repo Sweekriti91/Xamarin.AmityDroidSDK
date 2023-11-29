@@ -93,6 +93,7 @@
     <EmbeddedReferenceJar Include="Jars\amity-sdk-6.21.0.jar" />
     <EmbeddedReferenceJar Include="Jars\amity-socket-6.21.0.jar" />
     <EmbeddedReferenceJar Include="Jars\amity-stream-api-6.21.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\rxjava-3.1.5.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
