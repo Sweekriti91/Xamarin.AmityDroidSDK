@@ -14,6 +14,17 @@
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.observers']" />
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.subjects']" />
 	<remove-node path="/api/package[starts-with(@name,'androidx.databinding')]" />
+	<remove-node path="/api/package[@name='com.google.android.exoplayer2.ui']" />
+	<remove-node path="/api/package[@name='io.reactivex.observers']" />
+	<remove-node path="/api/package[@name='io.reactivex.internal.observers']" />
+	<remove-node path="/api/package[@name='io.reactivex.internal.operators.completable']" />
+	<remove-node path="/api/package[starts-with(@name,'io.socket')]" />
+	<remove-node path="/api/package[@name='co.amity.rxremotemediator']" />
+	<remove-node path="/api/package[starts-with(@name,'io.reactivex')]" />
+	<remove-node path="/api/package[starts-with(@name,'net.sqlcipher')]" />
+	<remove-node path="/api/package[starts-with(@name,'com.jakewharton')]" />
+	<remove-node path="/api/package[starts-with(@name,'org.joda')]" />
+
 	<!--<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.completable']" />-->
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.observers']" />
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.subscribers']" />
@@ -25,6 +36,8 @@
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.observable']" />
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.operators.single']" />
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.internal.util']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.api.chat.message.create']" />
+	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.socket.util']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.core.data.reaction']/class[@name='ReactionModelMapper']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.uikit.common.databinding']" />
 	<remove-node path="/api/package[@name='com.amity.socialcloud.sdk.chat.data.channel.membership']/class[@name='ChannelMembershipEntityMapper']"/>

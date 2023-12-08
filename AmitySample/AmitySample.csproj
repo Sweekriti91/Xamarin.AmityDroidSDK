@@ -9,11 +9,12 @@
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 
-     <!--<AndroidUseDesignerAssembly>False</AndroidUseDesignerAssembly>-->
-    <AndroidUseIntermediateDesignerFile>False</AndroidUseIntermediateDesignerFile>
 
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\AmityDroid\AmityDroid.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.2" />
   </ItemGroup>
 </Project>
