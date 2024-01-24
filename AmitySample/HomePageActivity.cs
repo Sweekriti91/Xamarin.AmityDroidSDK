@@ -5,6 +5,8 @@ using Android.Views;
 using AndroidX.AppCompat.Widget;
 using AndroidX.AppCompat.App;
 using AmityDroid;
+using Com.Amity.Socialcloud.Uikit.Community.Home.Fragments;
+
 namespace AmitySample;
 
 [Activity(Label = "HomePageActivity")]
@@ -23,7 +25,7 @@ public class HomePageActivity : AppCompatActivity
     public void LoadFragment()
     {
         var fragmentManager = SupportFragmentManager.BeginTransaction();
-        //var homefrag = AmityCommunityHomePageFragment
+        var homefrag = new AmityCommunityHomePageFragment();
         fragmentManager.Replace(Resource.Id.fragmentContainer, homefrag);
         fragmentManager.Commit();
     }

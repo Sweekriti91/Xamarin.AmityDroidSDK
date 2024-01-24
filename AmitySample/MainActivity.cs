@@ -26,10 +26,7 @@ public class MainActivity : AppCompatActivity
             .AuthToken("")
             .DisplayName("")
             .Build()
-            .Submit()
-            .DoOnComplete(new CompleteAction())
-            .DoOnError(new ErrorAction())
-            .Subscribe();
+            .Submit();
 
         System.Diagnostics.Debug.WriteLine("STATUS :: " + AmityCoreClient.Instance.CurrentSessionState.ToString());
         System.Diagnostics.Debug.WriteLine("STATUS :: " + AmityCoreClient.Instance.CurrentSessionState.ToString());
