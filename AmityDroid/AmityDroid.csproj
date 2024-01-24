@@ -38,22 +38,33 @@
     <AndroidLibrary Include="engine.io-client-1.0.0.jar" Bind="false" />
     <AndroidLibrary Include="rxrelay-3.0.1.jar" Bind="false" />
     <AndroidLibrary Include="joda-time-2.10.6.jar" Bind="false" />
-
-
+    <AndroidLibrary Include="databinding-adapters-8.1.4.aar" Bind="false" />
+    <AndroidLibrary Include="databinding-common-8.1.4.jar" Bind="false" />
+    <AndroidLibrary Include="databinding-compiler-8.1.4.jar" Bind="false" />
+    <AndroidLibrary Include="databinding-compiler-common-8.1.4.jar" Bind="false" />
+    <AndroidLibrary Include="databinding-ktx-8.1.4.aar" Bind="false" />
+    <AndroidLibrary Include="databinding-runtime-8.1.4.aar" Bind="false" />
+    <AndroidLibrary Include="viewbinding-8.1.4.aar" Bind="false" />
   </ItemGroup>
 
   <ItemGroup>
-		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.21.1" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.22" />
 		<PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.2" />
 		<PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4" Version="1.0.0.22" />
 		<PackageReference Include="Xamarin.AndroidX.ConstraintLayout" Version="2.1.4.9" />
 		<PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.6.1.6" />
-		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.21.1" />
+		<PackageReference Include="Xamarin.Kotlin.StdLib.Jdk8" Version="1.9.22" />
 		<PackageReference Include="GoogleGson" Version="2.10.1.7" />
-		<PackageReference Include="Square.OkHttp3" Version="4.12.0" />
-		<PackageReference Include="Xamarin.AndroidX.Room.Runtime" Version="2.6.0.1" />
-		<PackageReference Include="Xamarin.AndroidX.Room.Room.RxJava3" Version="2.6.0.1" />
+		<PackageReference Include="Square.OkHttp3" Version="4.12.0.1" />
+		<PackageReference Include="Xamarin.AndroidX.Room.Runtime" Version="2.6.1" />
+		<PackageReference Include="Xamarin.AndroidX.Room.Room.RxJava3" Version="2.6.1" />
 		<PackageReference Include="Xamarin.Google.Guava" Version="32.0.1.1" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment" Version="1.6.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.Fragment.Ktx" Version="1.6.2.1" />
+<!--		<PackageReference Include="Xamarin.AndroidX.DataBinding.DataBindingRuntime" Version="8.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.DataBindingAdapters" Version="8.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.DataBindingCommon" Version="8.2.1" />
+		<PackageReference Include="Xamarin.AndroidX.DataBinding.ViewBinding" Version="8.2.1" />-->
 	</ItemGroup>
 
 </Project>

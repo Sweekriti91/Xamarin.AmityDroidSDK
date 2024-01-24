@@ -14,6 +14,7 @@
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.observers']" />
 	<remove-node path="/api/package[@name='io.reactivex.rxjava3.subjects']" />
 	<remove-node path="/api/package[starts-with(@name,'androidx.databinding')]" />
+	<remove-node path="/api/package[starts-with(@name,'android.databinding')]" />
 	<remove-node path="/api/package[@name='com.google.android.exoplayer2.ui']" />
 	<remove-node path="/api/package[@name='io.reactivex.observers']" />
 	<remove-node path="/api/package[@name='io.reactivex.internal.observers']" />

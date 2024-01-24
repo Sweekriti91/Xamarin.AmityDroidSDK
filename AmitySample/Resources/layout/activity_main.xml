@@ -10,5 +10,12 @@
         android:layout_centerInParent="true"
         android:text="@string/app_text"
     />
+
+	<Button
+		android:id="@+id/homeshowbutton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:text="Show Home Page"/>
 </RelativeLayout>
 
